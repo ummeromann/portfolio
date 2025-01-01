@@ -5,7 +5,7 @@ export default function HomePage() {
         {/* Left Section */}
         <div className="left-section">
           <h1>HELLO</h1>
-          <h2>I'm <strong>Umme Roman Syed</strong>, a Web Developer</h2>
+          <h2>I&apos;m <strong>Umme Roman Syed</strong>, a Web Developer</h2>
           <p>
             Welcome to my web developer portfolio! I specialize in creating
             beautiful, responsive, and user-friendly websites. I have worked on
