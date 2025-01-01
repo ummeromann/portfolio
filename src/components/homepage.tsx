@@ -18,7 +18,12 @@ export default function HomePage() {
         </div>
         {/* Right Section */}
         <div className="right-section">
-          <img src="/pic.jpg" alt="center" />
+         <Image
+          src="/pic.jpg" 
+          alt="center"
+          width={200}
+          height={200}
+           />
         </div>
       </div>
     </div>
