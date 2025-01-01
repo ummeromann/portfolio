@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f4fc;
+  color: #333;
+}
+
+/* Header */
+
+.header {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: white;
+}
+
+.header nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header nav a {
+  color: white;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+  padding: 6rem 6rem;
+}
+
+.left-section {
+  max-width: 50%;
+}
+
+.left-section h1 {
+  font-size: 2.5rem;
+  color: #6a1b9a;
+}
+
+.left-section h2 {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.left-section p {
+  margin: 1.5rem 0;
+  line-height: 1.6;
+  color: #555;
+}
+
+.left-section button {
+  margin-right: 1rem;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hire-me {
+  background-color: #6a1b9a;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.hire-me:hover {
+  background-color: #4a148c;
+}
+
+.right-section img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+
+footer {
+  background-color: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* About */
+
+.about{
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  color: black;
+  padding: 50px;
+}
+
+.about h2{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* Contact */
+
+.contact-form {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
